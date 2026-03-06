@@ -10,5 +10,13 @@ print(tek_reqemler_10_qati)
 xallar = [45, 80, 30, 95, 55]
 qiymetler = ["Keçdi" if xal >= 60 else "Kəsildi" for xal in xallar]
 print(qiymetler)
+rengler = ["Qırmızı", "Mavi"]
+geyimlər = ["Köynək", "Şalvar", "Ayaqqabı"]
+kombinasiyalar = [(reng, geyim) for reng in rengler for geyim in geyimlər]
+print(kombinasiyalar)
+A = [1, 2, 3]
+B = [8, 9]
+dekart_hasili = [(a, b) for a in A for b in B]
+print(dekart_hasili)
 
 
