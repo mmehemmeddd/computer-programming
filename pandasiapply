@@ -1,4 +1,5 @@
-from pandasiapply import DataFrame
+import pandas
+
 
 # 1. Məlumatları lüğət (dictionary) formasında hazırlayırıq
 melumat = {

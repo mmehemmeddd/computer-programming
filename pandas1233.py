@@ -1,16 +1,11 @@
 import pandas as pd
 
-# 1. Məlumatları lüğət (dictionary) formasında hazırlayırıq
 melumat = {
     "Telebeler": ["Əli", "Aytən", "Vəli", "Nəzrin", "Rəşad"],
     "Riyaziyyat_Qiymeti": [85, 92, 78, 95, 60],
     "Davamliliq_Faizi": [90, 95, 80, 100, 70]
 }
-
-# 2. Bu məlumatı Pandas Cədvəlinə (DataFrame) çeviririk
 df = pd.DataFrame(melumat)
-
-# Cədvəli ekranda göstəririk
 print("Bütün Cədvəl:")
 print(df)
 print("-" * 30)
